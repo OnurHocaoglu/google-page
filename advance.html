@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Advanced Search</title>
+</head>
+<body>
+    <div class="advanced-header">
+        <img class="header-img" src="./googlelogo_color_272x92dp.png" alt="">
+        <a href="index.html">Back to Search</a>
+    </div>
+    <div class="advanced-h2">
+        <h2>Advanced Search</h2>
+    </div>
+    <hr>
+    <div class="advanced-container">
+        <h3>Find pages with...</h3>
+        <form action="https://google.com/search">
+            <div class="field">
+                <label for="field1">all these words:</label>
+                <input type="text" class="textinput" id="field1" value=""  name="as_q">
+            </div>
+            <br>
+            <div class="field">
+                <label for="field2">this exact word or phrase: </label>
+                <input type="text" class="textinput" id="field2" value=""  name="as_epq">
+            </div>
+            <br>
+            <div class="field">
+                <label for="field3">any of this words: </label>
+                <input type="text" class="textinput" id="field3" value=""  name="as_oq">
+            </div>
+            <br>
+            <div class="field">
+                <label for="field4">none of these words: </label>
+                <input type="text" class="textinput" id="field4" value=""  name="as_eq">
+            </div>
+            <br>
+            <div class="field">
+                <label for="field5">numbers ranging from: </label>
+                <input type="text" class="textinput1" id="field5" value=""  name="as_nlo">
+                <span class="seperator">&nbsp;&nbsp;  to</span>
+                <input type="text" class="textinput2" id="field5" value=""  name="as_nhi">
+            </div>
+            <input type="submit" value="Advanced Search" id="ad-submit">
+        </form>
+        
+    </div>
+    
+</body>
+</html>

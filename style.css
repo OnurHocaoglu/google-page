@@ -1,0 +1,105 @@
+@import url('https://fonts.cdnfonts.com/css/roboto');
+@import url('https://fonts.cdnfonts.com/css/arial');
+@import url('https://fonts.cdnfonts.com/css/sans-serif');
+body{
+    font-family: Roboto, arial, sans-serif;
+}
+.T8VaVe{
+    position: absolute;
+    top: 29.4%;
+    left: 51.5%;
+    color: #4285f4;
+}
+header{
+    text-align: right;
+    margin-right: 70px;
+    margin-top: 30px;
+}
+header a{
+    text-decoration: none;
+    padding-left: 30px;
+    color: rgb(117, 113, 113);
+}
+
+.main {
+    margin: 10% 43%;
+
+}
+
+.text{
+    margin-top: 26px;
+    width: 582px;
+    height: 40px;
+    margin-left: -42%;
+    border-radius: 20px;
+    border: 1px solid #d3d4d7;
+
+}
+.text {
+    background: url("https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-512.png") no-repeat left ;
+    background-size: 25px;
+    padding-left: 35px;
+}
+
+.search1, .search2{
+    margin-top: 29px;
+    height: 40px;
+    background-color: #f8f9fa;
+    border: 1px solid rgba(240, 236, 236, 0.471);
+    border-radius: 4px;
+    width: 127px;
+    height: 36px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 27px;
+    margin-right: 13px;
+}
+.advanced-header img{
+    text-align: left;
+    width: 74px;
+    height: 24px;
+}
+.advanced-header a{
+    float: right;
+}
+.advanced-h2{
+    color: #d93025;
+    font-size: 16px;
+    font-family: arial,sans-serif;
+    margin-left: 35px;
+    margin-top: 33px;
+    margin-bottom: 25px;
+
+}
+hr{
+    border: 0.5px solid #d3d4d7;
+}
+.field input[type=text]{
+    width: 500px;
+    height: 20px;
+}
+#field1{
+    margin-left: 72px;
+}
+#field3{
+    margin-left: 60px;
+}
+#field4{
+    margin-left: 37px;
+}
+#field5{
+    margin-left: 25px;
+    width: 216px;
+}
+input[type=submit]#ad-submit{
+    background-color: #4d90fe;
+    margin-left: 580px;
+    margin-top: 20px;
+    width: 120px;
+    height: 30px;
+    line-height: 11px;
+    font-family: arial;
+    color: #ffffff;
+    border-radius: 1px;
+}
+
